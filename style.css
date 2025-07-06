@@ -1,0 +1,113 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(180deg, #0A192F, #1C1C1C);
+  color: #F0F0F0;
+  font-size: 18px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+header {
+  background: #111;
+  padding: 30px 15px;
+  text-align: center;
+  border-bottom: 3px solid #00BFFF;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #00BFFF;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+header .location {
+  color: #CCCCCC;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+nav {
+  background: #222;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav a {
+  color: #F0F0F0;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  background: #00BFFF;
+  color: #111;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  animation: fadeIn 1s ease-in;
+}
+
+main h2 {
+  color: #00BFFF;
+  margin: 30px 0 10px;
+}
+
+main h3 {
+  color: #FFD700;
+  margin-top: 20px;
+}
+
+main p {
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00BFFF;
+}
+
+video {
+  max-width: 100%;
+  border: 3px solid #00BFFF;
+  border-radius: 10px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #999;
+  margin-top: 50px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.galerie-img {
+  width: 48%;
+  margin: 1%;
+}

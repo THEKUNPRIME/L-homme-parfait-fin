@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Galerie – L'Homme parfait</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    .galerie-img {
+      width: 48%;
+      margin: 1%;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .galerie-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00BFFF;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galerie</h1>
+    <p class="location">Vous êtes sur : Galerie</p>
+  </header>
+
+  <nav>
+    <a href="index.html" class="animate__animated animate__fadeInDown">Accueil</a>
+    <a href="galerie.html" class="animate__animated animate__fadeInDown">Galerie</a>
+    <a href="personnages.html" class="animate__animated animate__fadeInDown">Personnages</a>
+    <a href="contact.html" class="animate__animated animate__fadeInDown">Contact</a>
+  </nav>
+
+  <main>
+    <h2>1. L’affiche officielle</h2>
+    <p>Voici l’affiche principale du film L’Homme parfait, utilisée pour la promotion dans les festivals et les plateformes numériques :</p>
+    <a href="film.html">
+      <img src="Votre texte de paragraphe (1).png" alt="Affiche du film" style="max-width: 100%; max-height: 400px; height: auto; display: block; margin: 0 auto; border: 2px solid white;">
+    </a>
+
+    <h2>2. Photos du tournage</h2>
+    <p>Ces images ont été capturées pendant la production du film. Elles montrent les décors, les costumes et l’ambiance du plateau.</p>
+    <img src="2025-06-22_01.20.47.png" alt="Tournage 1" class="galerie-img">
+    <img src="2025-06-22_01.26.11.png" alt="Tournage 2" class="galerie-img">
+    <img src="2025-06-23_08.23.32.png" alt="Tournage 3" class="galerie-img">
+  </main>
+
+  <footer>&copy; 2025 - L'Homme parfait</footer>
+</body>
+</html>
